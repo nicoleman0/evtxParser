@@ -1,5 +1,4 @@
 from Evtx.Evtx import Evtx
-from Evtx.Views import evtx_file_xml_view
 
 
 def parse_evtx(file_path, output_path):
