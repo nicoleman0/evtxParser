@@ -25,7 +25,7 @@ def parse_evtx(file_path, output_path):
 
 if __name__ == "__main__":
     input_path = os.path.join(os.path.expanduser(
-        "~"), "unit42", "Microsoft-Windows-Sysmon-Operational.evtx")
+        "~"), "Microsoft-Windows-Sysmon-Operational.evtx")
     output_path = "output_file.xml"
     if os.path.exists(input_path):
         parse_evtx(input_path, output_path)
